@@ -1,0 +1,20 @@
+#####################################
+#         _   _                     #
+#        | \ | | ___  _   _         #
+#        |  \| |/ _ \| | | |        #
+#        | |\  | (_) | |_| |        #
+#        |_| \_|\___/ \__,_|        #
+#                                   #
+#####################################
+#         Plugin by MTM123          #
+#               No u!               #
+#####################################
+# Use %player% tag to include playername
+message: "&8&l>>>&e@%player% no u!"
+# If pattern matches message will be sent
+regex-patterns:
+- "\\b(?:your?|ur?)\\b"
+# Replace player names on join
+replace-names: true
+# Text which will replace player names on join
+replace-message: "&8&l>>>&e%player% joined the game. &aNo u"

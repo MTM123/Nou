@@ -1,0 +1,6 @@
+name: Nou
+version: ${project.version}
+main: lv.mtm123.nou.Nou
+authors: [MTM123]
+description: No u!
+website: https://mtm123.lv
